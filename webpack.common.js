@@ -51,15 +51,15 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "Dashboard",
-      filename: "dashboard.html",
+      filename: "index.html",
       template: path.resolve(__dirname, "src/views/dashboard.html"),
       ...htmlWebpackPluginConfig,
     }),
 
     new HtmlWebpackPlugin({
       title: "Add Records",
-      filename: "add-story.html",
-      template: path.resolve(__dirname, "src/views/add-story.html"),
+      filename: "new/add-story.html",
+      template: path.resolve(__dirname, "src/views/new/add-story.html"),
       ...htmlWebpackPluginConfig,
     }),
 
