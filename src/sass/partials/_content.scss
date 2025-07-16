@@ -1,0 +1,67 @@
+main {
+  min-height: 100vh;
+  overflow-y: scroll;
+  background-color: #ffffff;
+
+  .main-content {
+    .card_total-story_container {
+      margin-top: 6rem;
+      margin-left: 1rem;
+      width: 79vw;
+
+      .card_total-story {
+        width: 79vw;
+      }
+    }
+    .content {
+      background-color: #e9ecef;
+      border-radius: 1rem 0 0 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-content {
+    min-width: 100vw;
+
+    .content {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-content {
+    min-width: 80vw;
+
+    .content {
+      min-height: 90vh;
+      margin-top: 5.7rem;
+      margin-bottom: 3rem;
+      box-sizing: border-box;
+      min-width: 50%;
+      grid-template-columns: 1fr 1fr;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .drawer {
+      position: static;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main-content {
+    max-width: 81vw;
+
+    .content {
+      max-width: 81vw;
+      justify-content: center;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}

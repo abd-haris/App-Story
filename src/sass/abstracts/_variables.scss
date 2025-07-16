@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/functions";
+
+// Variables Bootstrap
+@import "~bootstrap/scss/variables";
+
+// Menerapkan/override variables Bootstrap apa pun di sini
+
+// Konfigurasi Bootstrap
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+$nav-height: 100vh;
