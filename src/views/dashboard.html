@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title><%= htmlWebpackPlugin.options.title %> | Story App</title>
+  </head>
+  <body class="">
+    <header id="header" class="border-end w-100 h-100">
+      <side-bar brandName="<%= brandName %>"></side-bar>
+      <nav-bar></nav-bar>
+    </header>
+
+    <main class="w-100 d-flex justify-content-end">
+      <div class="main-content">
+        <div class="card_total-story_container d-flex justify-content-center">
+          <card-dashboard id="card_total-story" classes="bg-warning" content="5 Story" description="Telah dibuat"></card-dashboard>
+        </div>
+        <div id="main-content_list-card" class="content ms-3 d-grid gap-2 justify-content-center pt-4 pb-3"></div>
+      </div>
+    </main>
+    <footer>
+      <!-- Your footer -->
+    </footer>
+  </body>
+</html>
